@@ -18,7 +18,7 @@ https://kyungseop.tistory.com/3 대로 따라하면 되는데, plugin 설치하�
 아래와 같이 하면 된다는 거다.
 
 ```shell
-$ sudo su[^sudosu]
+$ sudo su
 $ cd /home/bitnami/apps/redmine/htdocs/plugins
 $ git clone https://github.com/sciyoshi/redmine-slack.git redmine_slack
 $ bundle install --no-deployment
