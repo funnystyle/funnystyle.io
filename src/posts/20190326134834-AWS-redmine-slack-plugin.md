@@ -3,12 +3,12 @@ title: 'AWS 에 redmine + slack plugin 설치'
 date: '2019-03-26 13:48:34'
 ---
 
-스타트업이니까 AWS free plan 을 이용하자.
+스타트업이니까 AWS freetier 를 이용하자.
 
 AWS EC2 에서 redmine 검색
 
 redmine 4 에서는 slack plugin 이 잘 안되서
-`bitnami-redmine-3.3.0-0-linux-ubuntu-14.04.3-x86_64-hvm-ebs` 이 이미지로 시작하였음
+`bitnami-redmine-3.3.0-0-linux-ubuntu-14.04.3-x86_64-hvm-ebs` 이미지로 시작하였음
 
 t2.micro 로 바꾸고, pem 파일 받아놓는 거 외에는 다 default 로 처리
 
